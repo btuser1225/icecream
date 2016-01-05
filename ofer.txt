@@ -12,4 +12,4 @@ If you want to compile using icecream, make sure $prefix/lib/icecc/bin is the fi
 (Hint: put this in ~/.bashrc or /etc/profile to not have to type it in everytime)
 
 Then you just compile with make -j <nu
-one two three four
+one two three fouraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
