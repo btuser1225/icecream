@@ -1,0 +1,14 @@
+How to use icecream
+
+You need:
+
+One machine that runs the scheduler ("./icecc-scheduler -d")
+Many machines that run the daemon ("./iceccd -d")
+It is possible to run the scheduler and the daemon on one machine and only the daemon on another, thus forming a compile cluster with two nodes.
+
+If you want to compile using icecream, make sure $prefix/lib/icecc/bin is the first entry in your path, e.g. type
+
+ export PATH=/usr/lib/icecc/bin:$PATH
+(Hint: put this in ~/.bashrc or /etc/profile to not have to type it in everytime)
+
+Then you just compile with make -j <nu
